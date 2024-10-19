@@ -1,0 +1,21 @@
+20 website features:
+User Registration & Login: Users can create accounts and log in securely.
+Profile Management: Users can update their personal information, view rental history, and manage their account.
+Game Search & Filters: A powerful search feature with filters for game categories, platforms, genres, and ratings.
+Game Detail Pages: Each game has a dedicated page with detailed information, including description, screenshots, and user reviews.
+Game Wishlist: Users can add games to a wishlist for future rentals.
+Rental Duration Options: Multiple rental durations (e.g., 1 day, 3 days, 7 days) are available, with pricing based on duration.
+Unique Rental Code Generation: Upon rental, users receive a unique code tied to their game and rental period.
+Rental History: Users can view their past and active rentals, along with return dates and rental codes.
+Payment Gateway Integration: Integration with payment services like PayPal or Stripe for secure transactions.
+Discount & Promo Codes: Support for applying discount or promotional codes during checkout.
+Game Reviews & Ratings: Users can leave reviews and rate games they've rented, helping others make informed choices.
+Admin Dashboard: Admins can add, update, or remove games, manage inventory, and monitor user activity and rentals.
+Inventory Management: The system tracks game availability, ensuring users only rent available games.
+Notifications: Email or SMS notifications for rental confirmations, return reminders, and overdue alerts.
+Overdue Penalties: Automatically apply penalties or late fees if users fail to return games on time.
+Mobile Responsiveness: A mobile-friendly design that works seamlessly across devices.
+Game Recommendations: Suggest similar games based on users' rental history or game preferences.
+Multi-Platform Support: Include games for multiple platforms (e.g., PlayStation, Xbox, PC, Nintendo Switch).
+Customer Support: A help section with FAQs, contact forms, or live chat support.
+Security Features: Data encryption, password hashing, and secure user authentication processes.

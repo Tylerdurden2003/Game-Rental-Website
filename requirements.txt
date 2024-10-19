@@ -1,0 +1,37 @@
+User Management:
+
+Users should be able to create accounts (signup) and login.
+Implement forgot password and reset password functionality.
+Users should be able to update their profile information (name, email, password, etc.).
+Game Catalog:
+
+A searchable catalog of available games, including filters for genres, platforms (e.g., PlayStation, Xbox, PC), and ratings.
+Each game should have a detailed page with a description, screenshots, user reviews, and availability status.
+Users should be able to browse games by category (e.g., action, adventure, puzzle).
+Game Rental Process:
+
+Users should be able to select a game and choose a rental duration (e.g., 1 day, 3 days, 7 days).
+On confirming the rental, a unique rental code should be generated based on the selected duration.
+Allow users to view their rental history and currently rented games.
+Payment Integration:
+
+Implement a payment gateway (e.g., Stripe, PayPal) for users to securely pay for game rentals.
+Show the total cost for the rental based on the game price and duration before proceeding to payment.
+Allow for discount codes or special offers to be applied.
+Review and Rating System:
+
+After a game rental, users should be able to leave a review and rate the game.
+Display an average rating on each game’s detail page.
+Admin Panel:
+
+Admins should be able to add, update, or remove games from the catalog.
+View user activity logs, including rental history, reviews, and payments.
+Manage inventory (how many copies of each game are available for rent).
+Notifications:
+
+Send email notifications to users when they rent a game, reminding them about the return date.
+Notify users of overdue games and apply penalties if the rental period has expired.
+Wishlist:
+
+Users can add games to their wishlist for future rentals.
+Notify users when a wishlisted game becomes available.
