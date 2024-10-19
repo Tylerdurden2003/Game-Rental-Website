@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #3011fb, #ff4b2b);
+    color: #eeecec;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.auth-container {
+    background-color: #ef10d9;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    width: 350px;
+}
+
+
+.welcome-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1 {
+    font-size: 28px;
+    color: #f8f1f1;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+    color: #efe8e8;
+    margin-bottom: 20px;
+}
+
+/* CTA Buttons */
+.cta-button {
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    color: #d0cacd;
+    border: none;
+    padding: 12px 20px;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 10px;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+}
+
+/* Auth Forms */
+.auth-form {
+    display: none;
+    text-align: left;
+}
+
+.auth-form h2 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+}
+
+input:focus {
+    border-color: #ede8e9;
+    outline: none;
+}
+
+/* Hidden Class */
+.hidden {
+    display: none;
+}
+
+/* Toggle Links */
+.auth-form p {
+    margin-top: 15px;
+    text-align: center;
+}
+
+.auth-form a {
+    color: #ebe4e6;
+    text-decoration: none;
+}
+
+.auth-form a:hover {
+    text-decoration: underline;
+}

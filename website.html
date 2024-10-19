@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Rental Hub</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">GameRentalHub</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#games">Games</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+  
+    <header class="hero" id="home">
+        <div class="container">
+            <h1>Rent Your Favorite Games</h1>
+            <p>Enjoy unlimited access to the best games in the industry with flexible rental options. Pick, rent, play!</p>
+            <a href="#rentalSection" class="cta-button">Rent Now</a>
+        </div>
+    </header>
+
+   
+    <section class="featured" id="games">
+        <div class="container">
+            <h2>Featured Games</h2>
+            <div class="game-list">
+                <div class="game-item">
+                    <img src="game1.jpg" alt="Game 1">
+                    <h3>Game 1</h3>
+                    <p>Action-packed and thrilling adventure awaits.</p>
+                </div>
+                <div class="game-item">
+                    <img src="game2.jpg" alt="Game 2">
+                    <h3>Game 2</h3>
+                    <p>Explore vast worlds and defeat epic monsters.</p>
+                </div>
+                <div class="game-item">
+                    <img src="game3.jpg" alt="Game 3">
+                    <h3>Game 3</h3>
+                    <p>A strategic challenge for the sharpest minds.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+ 
+    <section class="rental" id="rentalSection">
+        <div class="container">
+            <h2>Rent a Game</h2>
+            <form id="rentalForm">
+                <label for="gameSelect">Choose a Game:</label>
+                <select id="gameSelect" required>
+                    <option value="" disabled selected>Select a game</option>
+                    <option value="1">Game 1</option>
+                    <option value="2">Game 2</option>
+                    <option value="3">Game 3</option>
+                </select>
+
+                <label for="rentalDuration">Rental Duration (Days):</label>
+                <input type="number" id="rentalDuration" min="1" max="30" required>
+
+                <button type="submit">Generate Rental Code</button>
+            </form>
+
+            <div id="rentalCode" class="hidden">
+                <h3>Your Rental Code:</h3>
+                <p id="codeDisplay"></p>
+            </div>
+        </div>
+    </section>
+   
+    <section class="testimonials" id="about">
+        <div class="container">
+            <h2>What Our Customers Say</h2>
+            <div class="testimonial-list">
+                <div class="testimonial-item">
+                    <p>"Great service! Renting games has never been easier."</p>
+                    <h4>- Alex P.</h4>
+                </div>
+                <div class="testimonial-item">
+                    <p>"I love the flexibility and wide selection of games available!"</p>
+                    <h4>- Jamie S.</h4>
+                </div>
+                <div class="testimonial-item">
+                    <p>"Highly recommended for gamers who want to try before buying."</p>
+                    <h4>- Chris M.</h4>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="contact" id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Email: support@gamerentalhub.com</p>
+            <p>Phone: (123) 456-7890</p>
+        </div>
+    </footer>
+
+    <script src="scripts.js"></script>
+</body>
+</html>

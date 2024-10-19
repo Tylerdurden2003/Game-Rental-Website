@@ -1,0 +1,120 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    color: #c507f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+.container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+    transition: transform 0.3s ease;
+}
+
+.container:hover {
+    transform: scale(1.05);
+}
+
+
+h1 {
+    font-size: 32px;
+    color: #ff4b2b;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: bold;
+}
+
+/* Form Styling */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Label Styling */
+label {
+    margin-top: 15px;
+    font-size: 16px;
+    color: #333;
+    font-weight: bold;
+    text-align: left;
+}
+
+/* Input Fields */
+input, select {
+    padding: 12px 15px;
+    margin-top: 8px;
+    border: none;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    font-size: 16px;
+    color: #333;
+    box-shadow: inset 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.2s ease;
+}
+
+input:focus, select:focus {
+    outline: none;
+    background-color: #e0e0e0;
+}
+
+/* Button Styling */
+button {
+    margin-top: 25px;
+    padding: 12px 20px;
+    background: linear-gradient(135deg, #ff416c, #ff4b2b);
+    border: none;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(255, 75, 43, 0.4);
+    transition: box-shadow 0.3s ease, background 0.3s ease;
+}
+
+button:hover {
+    background: linear-gradient(135deg, #ff4b2b, #ff416c);
+    box-shadow: 0 8px 25px rgba(255, 75, 43, 0.6);
+}
+
+#rentalCode {
+    margin-top: 30px;
+    padding: 15px;
+    background-color: #333;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+}
+
+.hidden {
+    display: none;
+}
+
+
+#codeDisplay {
+    color: #ff416c;
+    font-weight: bold;
+    font-size: 24px;
+    text-transform: uppercase;
+}
