@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Rental Website Requirements</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table, th, td {
+            border: 1px solid #ddd;
+        }
+
+        th, td {
+            padding: 12px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #333;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        tr:hover {
+            background-color: #ddd;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Game Rental Website Requirements</h1>
+        
+        <table>
+            <thead>
+                <tr>
+                    <th>Feature</th>
+                    <th>Number of Webpages</th>
+                    <th>CSS Changes for Each HTML File</th>
+                    <th>JS Changes</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>User Registration & Login</td>
+                    <td>2 (Login, Signup)</td>
+                    <td>Form styling, button styles, error messages</td>
+                    <td>Form validation, user authentication logic</td>
+                </tr>
+                <tr>
+                    <td>Profile Management</td>
+                    <td>1 (Profile Page)</td>
+                    <td>Profile form layout, custom buttons, input field styles</td>
+                    <td>Profile update logic, form validation, fetch and display user data</td>
+                </tr>
+                <tr>
+                    <td>Game Catalog</td>
+                    <td>3 (Home, Game Listing, Game Details)</td>
+                    <td>Grid layout for game cards, hover effects, responsive layout</td>
+                    <td>Search, filter, and pagination for game catalog</td>
+                </tr>
+                <tr>
+                    <td>Game Wishlist</td>
+                    <td>1 (Wishlist Page)</td>
+                    <td>Game list styling, remove button styles</td>
+                    <td>Add/remove games from wishlist, fetch wishlist data</td>
+                </tr>
+                <tr>
+                    <td>Rental Process</td>
+                    <td>2 (Game Rental, Confirmation)</td>
+                    <td>Form styling for rental duration selection, button styles</td>
+                    <td>Rental logic, rental duration selection, unique code generation</td>
+                </tr>
+                <tr>
+                    <td>Payment Integration</td>
+                    <td>1 (Payment Page)</td>
+                    <td>Payment form layout, button styles, error/success messages</td>
+                    <td>Payment processing logic, integration with payment gateway</td>
+                </tr>
+                <tr>
+                    <td>Game Reviews & Ratings</td>
+                    <td>1 (Game Details Page)</td>
+                    <td>Star rating system, review layout, user avatar styles</td>
+                    <td>Submit review logic, fetch and display reviews</td>
+                </tr>
+                <tr>
+                    <td>Admin Dashboard</td>
+                    <td>2 (Dashboard, Game Management)</td>
+                    <td>Table layout, button and form styles for adding games</td>
+                    <td>Game management logic (add, edit, remove games)</td>
+                </tr>
+                <tr>
+                    <td>Notifications</td>
+                    <td>0 (Backend feature)</td>
+                    <td>N/A</td>
+                    <td>Email/SMS notification logic for rental confirmations and reminders</td>
+                </tr>
+                <tr>
+                    <td>Overdue Penalties</td>
+                    <td>1 (Account or Rental History Page)</td>
+                    <td>Penalty display styles, button for payment of penalties</td>
+                    <td>Calculate penalties, alert user, apply penalties</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+</body>
+</html>
